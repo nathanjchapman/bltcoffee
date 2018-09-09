@@ -1,0 +1,141 @@
+@import url("normalize.css");
+@import url("fonts.css");
+
+
+html {
+	font-size: 1.25em;
+}
+
+body {
+	background-color: white;
+	font-family: 'gentium_basic', serif;
+	font-weight: 400;
+	line-height: 1.45;
+	color: #333;
+
+	padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+p {
+	margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+	font-family: "eczar";
+	margin: 1.414em 0 0.5em;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 2.441em;
+	
+}
+
+h2 {
+	font-size: 1.953em;
+}
+
+h3 {
+	font-size: 1.563em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+small {
+	font-size: 0.8em;
+}
+
+address {
+	font-style: inherit;
+}
+
+.byline {
+	font-size: 1.563em;
+}
+
+
+/* Layout */
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+nav {
+	width: 100%;
+	background-color: rgba(0,0,0,.95);
+	color: white;
+
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-flow: row wrap;
+}
+	nav a {
+		color: white;
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+	footer a {
+		color: white;
+	}
+
+article header,
+body header {
+	text-align: center;
+}
+
+main {
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+article {
+	padding-top: 1.563em;
+}
+
+footer {
+	width: 100%;
+	background-color: rgba(0,0,0,.95);
+	color: white;
+	text-align: center;
+
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	flex-flow: row wrap;
+}
+
+/* Theme */
+.banner {
+	padding: 4em 2em;
+	background-size: cover;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.banner a {
+	color: white;
+}

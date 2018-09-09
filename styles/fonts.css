@@ -1,0 +1,69 @@
+/* Eczar */
+
+@font-face {
+	font-family: 'eczar';
+	src: url('../fonts/Eczar/eczar-bold.woff2') format('woff2'),
+		 url('../fonts/Eczar/eczar-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'eczar';
+	src: url('../fonts/Eczar/eczar-extrabold.woff2') format('woff2'),
+		 url('../fonts/Eczar/eczar-extrabold.woff') format('woff');
+	font-weight: bolder;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'eczar';
+	src: url('../fonts/Eczar/eczar-medium.woff2') format('woff2'),
+		 url('../fonts/Eczar/eczar-medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'eczar';
+	src: url('../fonts/Eczar/eczar-regular.woff2') format('woff2'),
+		 url('../fonts/Eczar/eczar-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/* Gentium Basic */
+
+@font-face {
+	font-family: 'gentium_basic';
+	src: url('../fonts/Gentium_Basic/genbasbold.woff2') format('woff2'),
+		 url('../fonts/Gentium_Basic/genbasbold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'gentium_basic';
+	src: url('../fonts/Gentium_Basic/genbasbolditalic.woff2') format('woff2'),
+		 url('../fonts/Gentium_Basic/genbasbolditalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'gentium_basic';
+	src: url('../fonts/Gentium_Basic/genbasitalic.woff2') format('woff2'),
+		 url('../fonts/Gentium_Basic/genbasitalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'gentium_basic';
+	src: url('../fonts/Gentium_Basic/genbasregular.woff2') format('woff2'),
+		 url('../fonts/Gentium_Basic/genbasregular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
