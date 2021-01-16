@@ -89,6 +89,9 @@ nav {
 		color: white;
 		margin-right: 1em;
 		margin-left: 1em;
+		font-variant: small-caps;
+		text-decoration: none;
+		font-weight: bold;
 	}
 	footer a {
 		color: white;
@@ -110,18 +113,15 @@ article {
 }
 
 footer {
-	width: 100%;
 	background-color: rgba(0,0,0,.95);
 	color: white;
 	text-align: center;
 
-	padding-top: 0.25em;
-	padding-bottom: 0.25em;
+	padding: 0 1rem;
 
 	display: flex;
-	justify-content: space-around;
-	align-items: baseline;
-	flex-flow: row wrap;
+	/*justify-content: left;*/
+	flex-flow: column;
 }
 
 /* Theme */
